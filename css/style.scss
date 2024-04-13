@@ -6,10 +6,13 @@ $primary2: #a80a22;
 $textCol: #1f1f1f;
 
 // import fonts - font-family: 'Open Sans', sans-serif;
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap');
 
-@mixin main-font {
-  font-family: "Open Sans", sans-serif;
+.rubik-<uniquifier> {
+  font-family: "Rubik", sans-serif;
+  font-optical-sizing: auto;
+  font-weight: <weight>;
+  font-style: normal;
 }
 
 @mixin hero_btn($col1, $col2, $pad1, $pad2, $bRadius) {
@@ -71,6 +74,7 @@ body {
     position: relative;
     font-weight: bold;
     margin-bottom: 0;
+      text-align: right;
 
     span {
       color: $primary1;
