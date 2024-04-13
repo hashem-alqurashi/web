@@ -1,6 +1,5 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Open+Sans:wght@300;400;600;700&display=swap");
-body {
-  font-family: "Open Sans", sans-serif;
+@import url('https://fonts.googleapis.com/css2?family=El+Messiri:wght@400..700&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap') {
+  font-family: "Rubik", sans-serif;
   color: #0c0c0c;
   background-color: #ffffff;
   overflow-x: hidden;
@@ -289,6 +288,7 @@ a:focus {
 .slider_section .detail-box p {
   color: #fefefe;
   font-size: 26px;
+    text-align: right;
 }
 
 .slider_section .detail-box .btn-box {
@@ -454,6 +454,7 @@ a:focus {
   
   text-transform: uppercase;
         font-size: 20px;
+    text-align: center;
 }
 
 .service_section .box .detail-box a {
@@ -584,6 +585,7 @@ a:focus {
 .why_section .box p {
   margin-bottom: 0;
     font-size: 23px;
+    text-align: center;
 }
 
 .why_section .btn-box {
